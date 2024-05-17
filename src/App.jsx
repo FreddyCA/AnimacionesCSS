@@ -1,8 +1,15 @@
+import InfoPeter from "./components/InfoPeter";
+import Progress from "./components/Progress";
+import GlobalStyle from "./style/reset";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+    <GlobalStyle />
+      <Progress />
+      <InfoPeter />
+    </>
+  );
+};
 
-export default App
+export default App;
