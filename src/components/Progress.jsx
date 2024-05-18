@@ -4,7 +4,7 @@ const ProgressStyle = styled.div`
 height: 20px;
 width: 0%;
 background-color: orange;
-position: fixed;
+position: sticky;
 top: 0;
 
 animation: progress-grow auto linear;
