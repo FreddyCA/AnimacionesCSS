@@ -7,6 +7,7 @@ const TitleRyMStyle = styled.h1`
   padding: 16px;
   margin: 0;
   width: 100%;
+  height: 70px;
   position: sticky;
   top: 0;
   z-index: 10;

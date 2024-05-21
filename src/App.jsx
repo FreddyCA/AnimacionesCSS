@@ -1,13 +1,15 @@
 import GaleriaRyM from "./components/GaleriaRyM";
 import InfoPeter from "./components/InfoPeter";
-// import Progress from "./components/Progress";
+import NavBar from "./components/NavBar";
+import Progress from "./components/Progress";
 import GlobalStyle from "./style/reset";
 
 const App = () => {
   return (
     <>
       <GlobalStyle />
-      {/* <Progress /> */}
+      <NavBar />
+      <Progress />
       <InfoPeter />
       <GaleriaRyM />
     </>

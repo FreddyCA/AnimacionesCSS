@@ -1,25 +1,27 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const ProgressStyle = styled.div`
-height: 20px;
-width: 0%;
-background-color: orange;
-position: sticky;
-top: 0;
+  height: 20px;
+  width: 0%;
+  background-color: orange;
+  position: sticky;
+  top: 70px;
 
-animation: progress-grow auto linear;
-animation-timeline: scroll(root block);
+  animation: progress-grow auto linear;
+  animation-timeline: scroll(root block);
 
-@keyframes progress-grow {
-    from {width: 0% }
-    to { width: 100%}
-}
-`
+  @keyframes progress-grow {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+`;
 
 const Progress = () => {
-  return (
-    <ProgressStyle></ProgressStyle>
-  )
-}
+  return <ProgressStyle></ProgressStyle>;
+};
 
-export default Progress
+export default Progress;

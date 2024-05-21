@@ -6,9 +6,9 @@ const PhotoRyMTargetStyle = styled.div`
   gap: 1rem;
   margin-bottom: 32px;
   animation: reveal linear both;
-  z-index: 2;
   animation-timeline: view();
   animation-range: entry 10% cover 30%;
+
 
   @keyframes reveal {
     from {
