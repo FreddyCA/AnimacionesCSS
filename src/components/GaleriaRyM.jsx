@@ -11,7 +11,7 @@ const GaleriaRyMStyle = styled.section`
 
 const GaleriaRyMContainStyle = styled.div`
   background-color: black;
-  
+  z-index: 2;
 `;
 
 const GaleriaRyM = () => {

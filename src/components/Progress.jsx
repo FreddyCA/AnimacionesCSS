@@ -6,6 +6,7 @@ const ProgressStyle = styled.div`
   background-color: orange;
   position: sticky;
   top: 70px;
+  z-index: 200;
 
   animation: progress-grow auto linear;
   animation-timeline: scroll(root block);
