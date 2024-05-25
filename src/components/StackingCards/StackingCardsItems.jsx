@@ -14,12 +14,13 @@ const StackingCardsItemsStyled = styled.div`
 	grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 40vw);
 	gap: 4em;
+  view-timeline-name: --cards-element-scrolls-in-body
 `;
 
 const StackingCardsItems = ({ children }) => {
   return (
     <StackingCardsItemsContainStyled>
-      <StackingCardsItemsStyled style={{ 'viewTimelineName': '--cards-element-scrolls-in-body' }}>{children}</StackingCardsItemsStyled>
+      <StackingCardsItemsStyled >{children}</StackingCardsItemsStyled>
     </StackingCardsItemsContainStyled>
   );
 };
